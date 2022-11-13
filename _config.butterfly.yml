@@ -52,11 +52,11 @@ baseurl: "https://anin413.github.io"
 #
 # !! You don't need to change any of the configuration flags below !!
 #
-
-permalink: post/:abbrlink.html #post为自定义前缀
+      permalink: post/:abbrlink.html #post为自定义前缀
 abbrlink: 
           alg: crc32  #算法: crc16(default) and crc32
           rep: hex    #进制: dec(default) and hex
+
 # The release of Jekyll Now that you're using
 version: v1.2.0
 
@@ -87,3 +87,20 @@ exclude:
   - README.md
   - CNAME
 theme: butterfly
+index_img: sun.png
+# footer是否显示图片背景(与 top_img一致)
+footer_bg: true
+# Typewriter Effect (打字效果)
+# https://github.com/disjukr/activate-power-mode
+activate_power_mode:
+  enable: true
+  colorful: true # open particle animation (冒光特效)
+  shake: false #  open shake (抖動特效)
+  mobile: false
+canvas_ribbon:
+  enable: false
+  size: 150
+  alpha: 0.6
+  zIndex: -1
+  click_to_change: false  #設置是否每次點擊都更換彩带
+  mobile: false # false 手機端不顯示 true 手機端顯示
