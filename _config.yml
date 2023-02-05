@@ -53,10 +53,8 @@ baseurl: "https://anin413.github.io"
 # !! You don't need to change any of the configuration flags below !!
 #
 
-permalink: post/:abbrlink.html #post为自定义前缀
-abbrlink: 
-          alg: crc32  #算法: crc16(default) and crc32
-          rep: hex    #进制: dec(default) and hex
+permalink: /:title/
+
 # The release of Jekyll Now that you're using
 version: v1.2.0
 
@@ -86,4 +84,3 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-theme: butterfly
